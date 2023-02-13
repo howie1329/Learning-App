@@ -33,6 +33,7 @@ struct ContentViewRow: View {
                         .bold()
                     Text(lesson.duration)
                 }
+                .accentColor(.black)
             }
             .padding()
         }
